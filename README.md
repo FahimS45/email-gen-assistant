@@ -115,6 +115,9 @@ email-gen-assistant/
 │           ├── plot_aggregate_metrics.png
 │           └── plot_per_scenario_composite.png
 │
+├── report/
+│   └── Email_Generation_Assistant_Final_Report.pdf
+│
 ├── run_cli.py                       # interactive terminal demo (no server needed)
 ├── requirements.txt
 ├── .env.example
