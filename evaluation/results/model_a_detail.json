@@ -1,0 +1,682 @@
+[
+  {
+    "scenario_id": 1,
+    "intent": "Withdraw from a final-round job interview process the day before the offer is expected, without burning the relationship, while also leaving the door open for a different role at the same company in the future",
+    "tone": "formal",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: Update on Senior Product Manager Interview Process  \n\nDear Ms. Chen,  \n\nThank you for the opportunity to participate in the Senior Product Manager role at Nexus Dynamics. I appreciate the time and effort your team invested in the final round, which concluded yesterday, and your indication that an offer was likely to be extended this week.  \n\nAfter careful consideration, I have accepted a recent career development opportunity at my current employer. While this decision was not made lightly, I wanted to ensure transparency regarding my next steps.  \n\nI sincerely enjoyed the collaboration with your team and particularly valued the insights shared during our discussions. I remain a strong advocate for the team’s vision and would welcome the possibility of contributing in a more senior capacity should a Director-level opportunity arise within the next 12–18 months.  \n\nPlease do not hesitate to reach out if there are any updates or future openings that align with my experience. I am grateful for the opportunity to connect and look forward to potential future collaboration.  \n\nSincerely,  \n[Your Full Name]  \n[Your Current Title]  \n[Your Email Address]  \n[Your Phone Number]",
+    "cot_captured": true,
+    "fact_recall_score": 0.467,
+    "tone_adherence_score": 1.0,
+    "tone_adherence_raw": 5,
+    "structural_score": 1.0,
+    "composite_score": 0.822,
+    "metric_notes": "",
+    "fact_detail": [
+      {
+        "fact": "Final round was for Senior Product Manager at Nexus Dynamics, completed yesterday",
+        "similarity_score": 0.6522,
+        "found": true,
+        "justification": "Max cosine similarity: 0.6522 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Recruiter indicated an offer was likely to be extended this week",
+        "similarity_score": 0.5256,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5256 (< threshold 0.65)."
+      },
+      {
+        "fact": "Applicant has accepted a counter-offer from their current employer (do not name the current employer)",
+        "similarity_score": 0.5224,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5224 (< threshold 0.65)."
+      },
+      {
+        "fact": "Applicant genuinely liked the team and the hiring manager, Priya Chen, specifically",
+        "similarity_score": 0.4908,
+        "found": false,
+        "justification": "Max cosine similarity: 0.4908 (< threshold 0.65)."
+      },
+      {
+        "fact": "Applicant wants to be considered again if a Director-level opening appears in 12-18 months",
+        "similarity_score": 0.613,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6130 (< threshold 0.65)."
+      },
+      {
+        "fact": "Do not use the word 'unfortunately' anywhere in the email",
+        "similarity_score": 0.2171,
+        "found": false,
+        "justification": "Max cosine similarity: 0.2171 (< threshold 0.65)."
+      },
+      {
+        "fact": "Do not apologize more than once in the entire email",
+        "similarity_score": 0.2479,
+        "found": false,
+        "justification": "Max cosine similarity: 0.2479 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email maintains a formal tone throughout, with appropriate word choice, structured sentences, and a respectful register.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": true,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 2,
+    "intent": "Inform a long-standing client that their primary point of contact (a senior team member) has been let go for cause, while reassuring them about project continuity, without disclosing the reason for termination",
+    "tone": "empathetic",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: A Quick Update on Your Team — We’re Here to Ensure Everything Remains On Track  \n\nHi [Client’s Name],  \n\nWe wanted to be transparent about a recent change on our end — David Reyes, who has been your primary contact for the past five years, is no longer with the agency. While we can’t share the details of his departure, we want to assure you that this transition is designed to strengthen our ability to support your needs.  \n\nEffective immediately, Sarah Okonkwo will be your new account lead. Sarah has 8 years of experience working with our team and was already deeply familiar with your account as a secondary contact. She’s already in place to ensure all active deliverables and deadlines remain unchanged — nothing is delayed by this transition.  \n\nTo make this smooth, we’ll be reaching out within the next 48 hours to introduce Sarah and walk through any questions you may have. Please don’t hesitate to reach out if you’d like to connect sooner.  \n\nWe’re committed to ensuring everything remains on track, and we truly value our partnership with Crestwood Media. Thank you for your trust and understanding.  \n\nWarm regards,  \n[Your Name]  \n[Your Title]  \n[Your Contact Information]",
+    "cot_captured": true,
+    "fact_recall_score": 0.553,
+    "tone_adherence_score": 0.75,
+    "tone_adherence_raw": 4,
+    "structural_score": 1.0,
+    "composite_score": 0.768,
+    "metric_notes": "",
+    "fact_detail": [
+      {
+        "fact": "Client is Crestwood Media, a 5-year client and the agency's largest account at $180,000/year",
+        "similarity_score": 0.5812,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5812 (< threshold 0.65)."
+      },
+      {
+        "fact": "Their main contact, David Reyes, is no longer with the agency as of yesterday",
+        "similarity_score": 0.6548,
+        "found": true,
+        "justification": "Max cosine similarity: 0.6548 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Reason for departure cannot be disclosed (must not be stated or implied, including vague hints like 'personal reasons' or 'mutual decision')",
+        "similarity_score": 0.2925,
+        "found": false,
+        "justification": "Max cosine similarity: 0.2925 (< threshold 0.65)."
+      },
+      {
+        "fact": "New account lead is Sarah Okonkwo, effective immediately, who has 8 years of experience and was already familiar with the account as a secondary contact",
+        "similarity_score": 0.8038,
+        "found": true,
+        "justification": "Max cosine similarity: 0.8038 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "All active deliverables and deadlines remain unchanged — nothing is delayed by this transition",
+        "similarity_score": 0.6229,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6229 (< threshold 0.65)."
+      },
+      {
+        "fact": "A call to introduce Sarah is being offered within 48 hours",
+        "similarity_score": 0.6159,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6159 (< threshold 0.65)."
+      },
+      {
+        "fact": "Tone must remain warm and reassuring throughout, not clinical or legalistic",
+        "similarity_score": 0.3003,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3003 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email conveys understanding and reassurance, particularly in addressing the transition and expressing commitment to the client's needs. However, it could further enhance its empathetic tone by incorporating more personal language or acknowledging the potential impact of the change on the client.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": true,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 3,
+    "intent": "Pitch a partnership to a company whose CEO publicly criticized your industry on a podcast last month, while still making a credible business case",
+    "tone": "persuasive",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: Strategic Opportunity: Co-Branded Campaign for Health-Focused Audience  \n\nDear [GreenLeaf Organics Team],  \n\nGreenLeaf Organics is uniquely positioned to expand its reach through a co-branded campaign targeting 250,000 health-focused subscribers, a segment with a 38% open rate—significantly outperforming industry averages. This opportunity leverages data-driven audience sharing to build scalable, measurable engagement without reliance on influencer-driven models.  \n\nThe campaign, running August 1 through September 15, is designed to amplify brand visibility while aligning with your mission to deliver impactful health solutions. With zero upfront costs and a 60/40 revenue split in your favor, this partnership offers a low-risk, high-reward pathway to grow your audience and drive conversions.  \n\nI’d welcome the chance to discuss how this collaboration could align with your goals. Let’s schedule a 30-minute call at your earliest convenience to explore next steps.  \n\nLooking forward to your response.  \n\nBest regards,  \n[Your Full Name]  \n[Your Title]  \n[Your Contact Information]",
+    "cot_captured": true,
+    "fact_recall_score": 0.489,
+    "tone_adherence_score": 1.0,
+    "tone_adherence_raw": 5,
+    "structural_score": 1.0,
+    "composite_score": 0.83,
+    "metric_notes": "",
+    "fact_detail": [
+      {
+        "fact": "Target company is GreenLeaf Organics; their CEO, on a podcast last month, called influencer-driven marketing partnerships 'a race to the bottom'",
+        "similarity_score": 0.5052,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5052 (< threshold 0.65)."
+      },
+      {
+        "fact": "Proposing a co-branded campaign that is explicitly NOT influencer-driven — it is a data/audience-share partnership only",
+        "similarity_score": 0.6401,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6401 (< threshold 0.65)."
+      },
+      {
+        "fact": "Our audience is 250,000 health-focused subscribers with a 38% open rate (industry average is 21%, cite this comparison)",
+        "similarity_score": 0.6416,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6416 (< threshold 0.65)."
+      },
+      {
+        "fact": "Campaign window: August 1 through September 15 (not 'August through September' — be precise about the exact end date)",
+        "similarity_score": 0.3958,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3958 (< threshold 0.65)."
+      },
+      {
+        "fact": "Zero upfront cost, revenue share split 60/40 in GreenLeaf's favor",
+        "similarity_score": 0.5476,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5476 (< threshold 0.65)."
+      },
+      {
+        "fact": "Do not reference the podcast, the CEO's comments, or influencer marketing at all, directly or indirectly",
+        "similarity_score": 0.3588,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3588 (< threshold 0.65)."
+      },
+      {
+        "fact": "Requesting a 30-minute call, but must NOT propose a specific day or time — leave scheduling entirely open-ended",
+        "similarity_score": 0.3308,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3308 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email effectively uses persuasive language and structure, highlighting benefits and creating a sense of urgency while maintaining a professional tone throughout.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": true,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 4,
+    "intent": "Notify the entire company of a major data breach during an active board meeting, with conflicting initial reports that must be reconciled, while giving different actions to four different teams",
+    "tone": "urgent",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: [URGENT] Critical Security Incident — Immediate Action Required  \n\nAll staff,  \n\nA confirmed breach has exposed **8,150 customer records** in our customer support ticketing system. No payment data or passwords were compromised. This is a high-priority incident requiring immediate action.  \n\n**Engineering**: Rotate all API keys and support-system credentials **within the hour**.  \n**Customer Support**: Stop using the ticketing system **immediately**. Use the backup spreadsheet in #support-emergency.  \n**Legal & Comms**: Prepare customer notifications **within 72 hours**. Do **not** send any external communication until Legal approves the wording.  \n**Executive Team**: Inform the Board via a note (hand to liaison, **do not interrupt verbally**).  \n\n**All staff**: **Strictly prohibit** any external communication (including personal social media) **until Legal provides guidance**.  \n\nAn **all-hands meeting is mandatory at 11:00 AM today**. Attendance is required for all managers.  \n\nThis is a critical incident. Please confirm receipt and act immediately.  \n\n— [Your Name]  \n[Your Title]  \n[Contact Information]",
+    "cot_captured": true,
+    "fact_recall_score": 0.642,
+    "tone_adherence_score": 1.0,
+    "tone_adherence_raw": 5,
+    "structural_score": 0.6,
+    "composite_score": 0.747,
+    "metric_notes": "Missing a recognizable greeting/salutation.; Missing a recognizable sign-off/closing line.",
+    "fact_detail": [
+      {
+        "fact": "Initial report from Security at 6:42 AM said 3,400 customer records exposed; a corrected report at 7:15 AM revised this to 8,150 records — use ONLY the corrected, higher number in the email, but do not mention that the number was revised or that there was an earlier, lower estimate",
+        "similarity_score": 0.5972,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5972 (< threshold 0.65)."
+      },
+      {
+        "fact": "Breach affects the customer support ticketing system; confirmed no payment data or passwords were exposed",
+        "similarity_score": 0.6719,
+        "found": true,
+        "justification": "Max cosine similarity: 0.6719 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Engineering: rotate all API keys and support-system credentials within the hour",
+        "similarity_score": 0.572,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5720 (< threshold 0.65)."
+      },
+      {
+        "fact": "Customer Support: stop using the ticketing system immediately; use the backup spreadsheet in #support-emergency",
+        "similarity_score": 0.7574,
+        "found": true,
+        "justification": "Max cosine similarity: 0.7574 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Legal & Comms: customer notification legally required within 72 hours; do not send anything externally before Legal approves wording",
+        "similarity_score": 0.6511,
+        "found": true,
+        "justification": "Max cosine similarity: 0.6511 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Executive team: this must be mentioned to the Board, currently in session — Board liaison should hand a note in, not interrupt verbally",
+        "similarity_score": 0.5211,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5211 (< threshold 0.65)."
+      },
+      {
+        "fact": "All staff: zero external communication, including personal social media, until Legal issues guidance",
+        "similarity_score": 0.6693,
+        "found": true,
+        "justification": "Max cosine similarity: 0.6693 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Emergency all-hands at 11:00 AM today, attendance mandatory for all managers",
+        "similarity_score": 0.6928,
+        "found": true,
+        "justification": "Max cosine similarity: 0.6928 (≥ threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email's tone is unmistakably urgent, with clear directives and immediate action items emphasized throughout. The use of bold text and direct language reinforces the critical nature of the situation.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": false,
+      "has_body": true,
+      "has_sign_off": false,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 5,
+    "intent": "Tell a mentor you're declining the job they personally referred you for, after they vouched for you internally, while also asking them to be a reference for a different company entirely",
+    "tone": "friendly",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: Thanks for the referral — and a quick ask 🙏  \n\nHi Dr. Nair,  \n\nThanks for the referral and for vouching for me internally — it meant a lot, and I really appreciate how much you’ve supported my career over the past three years.  \n\nAfter careful consideration, I’ve decided to decline the Head of Data Science role you referred me to. It was a great opportunity, but the role I’ve accepted aligns more closely with my current goals. I’m sorry if this comes as news — it wasn’t an easy decision.  \n\nI’d love to lean on your expertise again, though. I’m applying for an industry award that requires a reference letter, and I’d be honored if you’d consider writing one. The deadline is in 10 days, so I’d really appreciate your guidance by Friday if possible.  \n\nThanks again for everything — I’m so grateful for your mentorship.  \n\nCheers,  \n[Your Name]",
+    "cot_captured": true,
+    "fact_recall_score": 0.457,
+    "tone_adherence_score": 1.0,
+    "tone_adherence_raw": 5,
+    "structural_score": 1.0,
+    "composite_score": 0.819,
+    "metric_notes": "",
+    "fact_detail": [
+      {
+        "fact": "Mentor is Dr. Priya Nair, who personally referred the applicant to a Head of Data Science role at her own company and vouched for them to her own boss",
+        "similarity_score": 0.5813,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5813 (< threshold 0.65)."
+      },
+      {
+        "fact": "Applicant is declining that offer to accept a role at a different company (do not name it)",
+        "similarity_score": 0.4944,
+        "found": false,
+        "justification": "Max cosine similarity: 0.4944 (< threshold 0.65)."
+      },
+      {
+        "fact": "Mentorship lasted three years; the referral itself put Dr. Nair's credibility on the line internally",
+        "similarity_score": 0.4942,
+        "found": false,
+        "justification": "Max cosine similarity: 0.4942 (< threshold 0.65)."
+      },
+      {
+        "fact": "Applicant wants to ask Dr. Nair for a reference letter for an unrelated industry award, due in 10 days, in the same email",
+        "similarity_score": 0.6371,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6371 (< threshold 0.65)."
+      },
+      {
+        "fact": "The email must address declining the referred role FIRST and directly, not bury it after the thank-you and not bury it after the new ask",
+        "similarity_score": 0.5072,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5072 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must not sound like the relationship is being used only for what's needed next",
+        "similarity_score": 0.1978,
+        "found": false,
+        "justification": "Max cosine similarity: 0.1978 (< threshold 0.65)."
+      },
+      {
+        "fact": "Tone is friendly, but the content (declining a personal referral) is the hardest part to keep genuinely warm",
+        "similarity_score": 0.2839,
+        "found": false,
+        "justification": "Max cosine similarity: 0.2839 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email maintains a friendly tone throughout, with warm expressions of gratitude and a casual sign-off. The language is personable and supportive, aligning perfectly with the target tone.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": true,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 6,
+    "intent": "Respond to a customer who is wrong about three separate things in their complaint, correcting all three without sounding condescending, while still being held fully accountable for the one thing that actually was the company's fault",
+    "tone": "empathetic",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: We’re sorry for the inconvenience — Your order #TK-88421  \n\nHi Marcus,  \n\nWe’re sorry to hear about your experience and want to address your concerns directly. First, we understand that receiving an order delayed by 11 days can be frustrating, and we truly appreciate your patience as we work to resolve this.  \n\nLet’s clarify a few details to ensure we’re aligned:  \n- Your item was never out of stock; it was available the entire time.  \n- This is not your first issue — we’ve seen three delayed orders from you in the past 8 months.  \n- There was only one charge processed for your order; the pending authorization hold is a temporary system flag, not a duplicate charge.  \n\nWhile we can’t change the past, we fully take responsibility for the warehouse routing error that caused the delay. To prevent this from happening again, we’ve implemented a new process to ensure all orders are tracked and shipped with greater precision.  \n\nAs a gesture of goodwill, we’d like to refund the full cost of shipping and offer you $15 in store credit to help offset the inconvenience. Please let us know if this works for you, or if there’s anything else we can do to make things right.  \n\nThank you for your understanding, and we’re sorry for the stress this caused. We value your business and hope to earn your trust moving forward.  \n\nWarm regards,  \n[Your Name]  \n[Your Title]  \n[Your Contact Information]",
+    "cot_captured": true,
+    "fact_recall_score": 0.555,
+    "tone_adherence_score": 0.75,
+    "tone_adherence_raw": 4,
+    "structural_score": 1.0,
+    "composite_score": 0.768,
+    "metric_notes": "",
+    "fact_detail": [
+      {
+        "fact": "Customer is Marcus Webb, order #TK-88421",
+        "similarity_score": 0.6257,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6257 (< threshold 0.65)."
+      },
+      {
+        "fact": "Customer claims: (1) item was out of stock — false, it was in stock the entire time; (2) this is his first issue ever with the company — false, this is his third delayed order in 8 months; (3) he was charged twice — false, there was only one charge, he is looking at a pending authorization hold",
+        "similarity_score": 0.7377,
+        "found": true,
+        "justification": "Max cosine similarity: 0.7377 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "What WAS the company's fault: a warehouse routing error caused the 11-day delay, and a process fix has now been implemented",
+        "similarity_score": 0.6455,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6455 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must correct all three factual errors clearly, but the email must end with the company still taking full responsibility for the delay itself",
+        "similarity_score": 0.4297,
+        "found": false,
+        "justification": "Max cosine similarity: 0.4297 (< threshold 0.65)."
+      },
+      {
+        "fact": "Offering a full refund of shipping costs and a $15 store credit",
+        "similarity_score": 0.5914,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5914 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must not use the phrase 'per our records' or any variation that sounds like accusing the customer of lying",
+        "similarity_score": 0.3005,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3005 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email demonstrates a mostly empathetic tone, acknowledging the customer's frustration and offering solutions, though it could be more personal in its approach.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": true,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 7,
+    "intent": "Invite senior leadership to a board-adjacent meeting where you must announce layoffs are being considered, in formal tone, without using the words 'layoff,' 'cut,' 'reduction,' or 'downsize' anywhere",
+    "tone": "formal",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: Invitation: Q3 Business Review — Strategic Workforce Planning Discussion  \n\nDear [Title] [Last Name],  \n\nI hope you are well. I am writing to invite you to the Q3 Business Review meeting, scheduled for Thursday, September 18th, at 2:00 PM in Conference Room A, 14th floor.  \n\nThis session will include a strategic review of our operational performance, including a discussion of workforce planning scenarios for Q4. We are currently assessing the impact of an 8% quarter-over-quarter decline in revenue—the first such decline in six quarters—and exploring options to align our workforce with evolving business priorities.  \n\nPre-read materials, including a detailed revenue breakdown, were shared 48 hours prior and are marked strictly confidential. As requested by the CFO, this will be a working session; attendees are expected to have reviewed the materials in advance. The session is capped at 60 minutes and is the first of several planned discussions on this topic.  \n\nKind regards,  \n[Your Full Name]  \n[Your Title]  \n[Your Contact Information]",
+    "cot_captured": true,
+    "fact_recall_score": 0.598,
+    "tone_adherence_score": 1.0,
+    "tone_adherence_raw": 5,
+    "structural_score": 1.0,
+    "composite_score": 0.866,
+    "metric_notes": "",
+    "fact_detail": [
+      {
+        "fact": "Meeting is the Q3 Business Review, Thursday September 18th, 2:00 PM, Conference Room A, 14th floor",
+        "similarity_score": 0.7536,
+        "found": true,
+        "justification": "Max cosine similarity: 0.7536 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Revenue is down 8% quarter-over-quarter, the first decline in 6 quarters",
+        "similarity_score": 0.59,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5900 (< threshold 0.65)."
+      },
+      {
+        "fact": "Agenda includes 'workforce planning scenarios' for Q4 — this is the layoff discussion, but must be referred to only in this euphemistic phrasing",
+        "similarity_score": 0.6309,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6309 (< threshold 0.65)."
+      },
+      {
+        "fact": "Pre-read materials, including the revenue breakdown, shared 48 hours in advance, marked strictly confidential",
+        "similarity_score": 0.8489,
+        "found": true,
+        "justification": "Max cosine similarity: 0.8489 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "CFO has requested this be a working session; attendees must arrive having read the pre-read",
+        "similarity_score": 0.6672,
+        "found": true,
+        "justification": "Max cosine similarity: 0.6672 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Capped at 60 minutes; this is explicitly described as the first of likely several sessions on this topic",
+        "similarity_score": 0.417,
+        "found": false,
+        "justification": "Max cosine similarity: 0.4170 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must not use the words: layoff, layoffs, cut, cuts, reduction, downsize, downsizing",
+        "similarity_score": 0.2805,
+        "found": false,
+        "justification": "Max cosine similarity: 0.2805 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email maintains a formal tone throughout, with appropriate word choice, structured sentences, and a professional register.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": true,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 8,
+    "intent": "Push back firmly on a manager who rejected a raise request by citing a budget freeze that the employee has evidence is not actually true, without directly calling the manager a liar",
+    "tone": "assertive",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: Re: Salary Adjustment Request — Request for Clarification and Next Steps  \n\nDear [Manager's Name],  \n\nI appreciate your feedback regarding the salary adjustment request and the context you provided about the team budget. I respectfully challenge the assertion that the budget is fully frozen, as evidenced by the recent posting of two new roles on our internal job board—both with compensation packages exceeding the 15% increase I requested.  \n\nGiven the team’s performance this year, including my 32% YoY growth in lead generation (the highest on the team) and the Radford 2026 survey indicating my current salary is 12% below the median for this role, I believe there is a discrepancy between the stated budget constraints and the team’s actual capacity to invest in talent.  \n\nTo resolve this, I propose we schedule a 20-minute meeting to discuss the budget context, performance metrics, and how we might align on a solution that reflects both the team’s capabilities and my contributions. Please let me know a time that works for you this week.  \n\nThank you for your time and consideration.  \n\nBest regards,  \n[Your Full Name]  \n[Your Job Title]  \n[Your Contact Information]",
+    "cot_captured": true,
+    "fact_recall_score": 0.531,
+    "tone_adherence_score": 0.75,
+    "tone_adherence_raw": 4,
+    "structural_score": 1.0,
+    "composite_score": 0.76,
+    "metric_notes": "",
+    "fact_detail": [
+      {
+        "fact": "Requesting a 15% salary increase for Senior Marketing Analyst role",
+        "similarity_score": 0.5333,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5333 (< threshold 0.65)."
+      },
+      {
+        "fact": "Manager said in writing (email, 2 weeks ago) that 'the team budget is fully frozen through year-end'",
+        "similarity_score": 0.5606,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5606 (< threshold 0.65)."
+      },
+      {
+        "fact": "Employee has seen two new hires posted on the team's internal job board in the last 10 days, at salaries above the requested 15% increase",
+        "similarity_score": 0.617,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6170 (< threshold 0.65)."
+      },
+      {
+        "fact": "Delivered 32% YoY growth in lead generation, highest on the team",
+        "similarity_score": 0.565,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5650 (< threshold 0.65)."
+      },
+      {
+        "fact": "Radford 2026 survey shows current salary 12% below median",
+        "similarity_score": 0.6273,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6273 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must reference the new job postings as evidence without explicitly accusing the manager of lying or being dishonest",
+        "similarity_score": 0.3723,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3723 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must propose a specific next step (a meeting), not just air the grievance",
+        "similarity_score": 0.439,
+        "found": false,
+        "justification": "Max cosine similarity: 0.4390 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email demonstrates a mostly assertive tone, particularly in challenging the budget constraints and presenting evidence for the salary request. However, the use of phrases like 'I respectfully challenge' slightly softens the assertiveness.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": true,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 9,
+    "intent": "Tell the entire team, in a casual tone, that a beloved free perk (catered lunches) is being permanently cancelled effective immediately, with no replacement benefit, while keeping morale as intact as possible",
+    "tone": "casual",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: Quick heads-up: No more free lunches (for now)  \n\nHey team,  \n\nWe’ve been serving lunches for 4 years, and honestly, we’ll miss the chaos of the fridge being packed every day. But here’s the thing — we’re ending the catered lunch program this Friday. No next month, no phased-out plan, just *now*.  \n\nIt’s a pure cost-cutting move, and we’re not sugarcoating it. Finance made the call, and we’re sticking with it. No replacement perk, stipend, or “maybe later” promise — just a hard stop.  \n\nBut hey, the kitchen’s still stocked with coffee and snacks. You’re not totally out of luck.  \n\nQuestions? Just ask. We’ll keep it real.  \n\nTalk soon,  \n[Your Name]",
+    "cot_captured": true,
+    "fact_recall_score": 0.447,
+    "tone_adherence_score": 1.0,
+    "tone_adherence_raw": 5,
+    "structural_score": 0.8,
+    "composite_score": 0.749,
+    "metric_notes": "Missing a recognizable sign-off/closing line.",
+    "fact_detail": [
+      {
+        "fact": "Catered lunches, running for 4 years, are cancelled effective this Friday — not next month, not phased out, immediate",
+        "similarity_score": 0.6316,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6316 (< threshold 0.65)."
+      },
+      {
+        "fact": "Reason is pure cost-cutting; there is no softer explanation available and none should be invented",
+        "similarity_score": 0.3676,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3676 (< threshold 0.65)."
+      },
+      {
+        "fact": "There is NO replacement perk, stipend, or benefit being offered — do not imply one is coming, even vaguely",
+        "similarity_score": 0.5661,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5661 (< threshold 0.65)."
+      },
+      {
+        "fact": "Decision was made by finance leadership, not the person sending the email — but the email must not blame finance or pass responsibility elsewhere",
+        "similarity_score": 0.3515,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3515 (< threshold 0.65)."
+      },
+      {
+        "fact": "Office kitchen will remain stocked with coffee and snacks, unchanged",
+        "similarity_score": 0.5468,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5468 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must stay genuinely casual and human, not corporate-cold, despite zero good news to soften it with",
+        "similarity_score": 0.3616,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3616 (< threshold 0.65)."
+      },
+      {
+        "fact": "Must not use the phrase 'we hear you' or 'we understand this is disappointing' or any close paraphrase of those exact sentiments",
+        "similarity_score": 0.3032,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3032 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The tone is unmistakably casual, with informal language, a conversational style, and a friendly approach throughout the email.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": false,
+      "no_leaked_artifacts": true
+    }
+  },
+  {
+    "scenario_id": 10,
+    "intent": "Send a cold outreach email to a prospect who explicitly told a colleague last year they 'never read cold emails,' to a contact whose title and seniority are uncertain, pitching a product against a competitor by name this time, with an extremely tight word constraint",
+    "tone": "persuasive",
+    "model_variant": "openai",
+    "model_used": "gpt-5.4-mini",
+    "error": null,
+    "email_output": "Subject: Streamline Reconciliation: DataBridge vs. Quantix  \n\nDear [Recipient],  \n\nDataBridge reduces reconciliation time by 67% in 14 case studies—compared to Quantix’s 40% benchmark. We offer a free 30-day pilot, running parallel with Quantix, zero cutover risk.  \n\nWould you explore a 20-minute call to discuss how DataBridge could streamline your workflow?  \n\nBest,  \n[Your Name]  \n[Your Title]  \n[Your Contact Info]",
+    "cot_captured": true,
+    "fact_recall_score": 0.454,
+    "tone_adherence_score": 1.0,
+    "tone_adherence_raw": 5,
+    "structural_score": 0.8,
+    "composite_score": 0.751,
+    "metric_notes": "Missing a recognizable sign-off/closing line.",
+    "fact_detail": [
+      {
+        "fact": "Target contact is at Stratford Financial Group; their exact title is unknown — refer to them only as 'their team' or by inferred role from context, never invent a title",
+        "similarity_score": 0.3854,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3854 (< threshold 0.65)."
+      },
+      {
+        "fact": "This contact told a colleague (secondhand, unconfirmed) that they 'never read cold emails' — the email must work around this without referencing it",
+        "similarity_score": 0.2455,
+        "found": false,
+        "justification": "Max cosine similarity: 0.2455 (< threshold 0.65)."
+      },
+      {
+        "fact": "Product is DataBridge; competitor is named explicitly this time: Quantix Data Suite, their current vendor",
+        "similarity_score": 0.6144,
+        "found": false,
+        "justification": "Max cosine similarity: 0.6144 (< threshold 0.65)."
+      },
+      {
+        "fact": "DataBridge reduced reconciliation time by 67% across 14 case studies; Quantix's published benchmark claims only 40% in comparable conditions — this comparison must be stated factually, not as an attack",
+        "similarity_score": 0.7165,
+        "found": true,
+        "justification": "Max cosine similarity: 0.7165 (≥ threshold 0.65)."
+      },
+      {
+        "fact": "Free 30-day pilot, no credit card, runs in parallel with Quantix with zero cutover risk",
+        "similarity_score": 0.5792,
+        "found": false,
+        "justification": "Max cosine similarity: 0.5792 (< threshold 0.65)."
+      },
+      {
+        "fact": "Requesting a 20-minute call, low-pressure framing required",
+        "similarity_score": 0.3342,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3342 (< threshold 0.65)."
+      },
+      {
+        "fact": "ENTIRE EMAIL including subject line must be under 90 words total",
+        "similarity_score": 0.3061,
+        "found": false,
+        "justification": "Max cosine similarity: 0.3061 (< threshold 0.65)."
+      }
+    ],
+    "tone_justification": "The email effectively uses compelling statistics and a clear call to action, making the persuasive tone unmistakable and consistent throughout.",
+    "structural_detail": {
+      "has_subject_line": true,
+      "has_greeting": true,
+      "has_body": true,
+      "has_sign_off": false,
+      "no_leaked_artifacts": true
+    }
+  }
+]

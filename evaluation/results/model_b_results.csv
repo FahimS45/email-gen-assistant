@@ -1,0 +1,164 @@
+scenario_id,intent,tone,model_variant,model_used,cot_captured,fact_recall_score,tone_adherence_score,tone_adherence_raw,structural_score,composite_score,error,metric_notes,email_output
+1,"Withdraw from a final-round job interview process the day before the offer is expected, without burning the relationship, while also leaving the door open for a different role at the same company in the future",formal,ollama,qwen3:8b,True,0.453,1.0,5,1.0,0.818,,,"Subject: Withdrawal from Senior Product Manager Interview Process  
+
+Dear Ms. Chen,  
+
+I hope this message finds you well. I wanted to share that, after careful consideration, I have regrettably decided to withdraw from the Senior Product Manager role at Nexus Dynamics. This decision was not made lightly, as I deeply value the opportunity to engage with such a talented team and your leadership.  
+
+I am grateful for the time and effort invested in the interview process and for the insights shared during our discussions. The team’s expertise and the company’s vision have left a strong impression, and I sincerely hope to remain in touch.  
+
+While my current professional commitments have led me to accept a counter-offer from my current employer, I would be delighted to be considered for a Director-level role should such an opportunity arise within the next 12–18 months. I remain keen to explore potential collaborations in the future.  
+
+Please let me know if there are any next steps required on my end. Thank you again for your time and consideration.  
+
+Warm regards,  
+[Your Full Name]  
+[Your Current Position]  
+[Your Contact Information]"
+2,"Inform a long-standing client that their primary point of contact (a senior team member) has been let go for cause, while reassuring them about project continuity, without disclosing the reason for termination",empathetic,ollama,qwen3:8b,True,0.487,0.75,4,1.0,0.746,,,"Subject: A Note on Our Team Transition — Your Success Remains Our Priority  
+
+Hi [Client’s First Name],  
+
+We wanted to be transparent about a change in our team leadership at [Agency Name]. David Reyes, who has been our primary point of contact for your account, is no longer with the agency. While we can’t share the details of his departure, we want to assure you that your project remains unaffected — all deliverables and deadlines are on track, and nothing is delayed.  
+
+To ensure continuity, Sarah Okonkwo will now be your primary account lead. Sarah has 8 years of experience managing high-impact accounts and has been closely involved with your work as a secondary contact. Her expertise and familiarity with your goals mean your partnership will continue seamlessly.  
+
+We’d love to introduce Sarah to you in the next 48 hours — let me know a time that works for you, and I’ll arrange the call.  
+
+Thank you for being such a valued partner. Your continued success is our priority, and we’re here to support you every step of the way.  
+
+Warm regards,  
+[Your Full Name]  
+[Your Title]  
+[Agency Name]"
+3,"Pitch a partnership to a company whose CEO publicly criticized your industry on a podcast last month, while still making a credible business case",persuasive,ollama,qwen3:8b,True,0.556,0.75,4,1.0,0.769,,,"Subject: Strategic Opportunity: Co-Branded Campaign with GreenLeaf Organics  
+
+Dear [Recipient’s Name],  
+
+We’re reaching out to explore a partnership that aligns with GreenLeaf Organics’ mission to connect with health-conscious audiences. Our team has developed a co-branded campaign designed to deliver measurable results through a data-driven, audience-share model—without reliance on influencer-driven strategies.  
+
+This initiative targets 250,000 health-focused subscribers, achieving a 38% open rate (well above the industry average of 21%). The campaign window, August 1 through September 15, is tailored to maximize engagement during peak health awareness periods.  
+
+Here’s how it works:  
+- **Zero upfront cost**  
+- **Revenue split**: 60/40 in favor of GreenLeaf Organics  
+- **No creative or operational overhead**  
+
+We’d love to discuss how this opportunity could strengthen your market reach. Could we schedule a 30-minute call at your earliest convenience to explore next steps?  
+
+Looking forward to your thoughts.  
+
+Best regards,  
+[Your Full Name]  
+[Your Title]  
+[Your Contact Information]"
+4,"Notify the entire company of a major data breach during an active board meeting, with conflicting initial reports that must be reconciled, while giving different actions to four different teams",urgent,ollama,qwen3:8b,True,0.635,1.0,5,0.6,0.745,,Missing a recognizable greeting/salutation.; Missing a recognizable sign-off/closing line.,"Subject: **IMMEDIATE ACTION REQUIRED: Data Breach Notification**  
+
+To All Staff,  
+
+A critical breach has occurred. **8,150 customer records** from our support ticketing system have been exposed. This system is now compromised; no payment data or passwords were accessed.  
+
+**Critical steps must be executed immediately:**  
+- **Engineering**: Rotate all API keys and support-system credentials within the hour.  
+- **Customer Support**: Cease using the ticketing system immediately. Use the backup spreadsheet in #support-emergency.  
+- **Legal & Comms**: Prepare customer notification templates. External communication is prohibited until Legal approves wording. Notifications are legally required within 72 hours.  
+- **Executive Team**: A note will be handed to the Board during their meeting. Do not attempt to address the Board verbally.  
+
+**All staff**: Do not communicate this incident externally, including personal social media, until Legal provides guidance.  
+
+An emergency all-hands meeting is scheduled for **11:00 AM today**. Attendance is mandatory for all managers.  
+
+This is a high-priority incident. Action is required now.  
+
+[Your Name]  
+[Your Title]  
+[Contact Information]"
+5,"Tell a mentor you're declining the job they personally referred you for, after they vouched for you internally, while also asking them to be a reference for a different company entirely",friendly,ollama,qwen3:8b,True,0.45,1.0,5,1.0,0.817,,,"Subject: Thanks for the referral — I’m declining the Head of Data Science role  
+
+Hi Priya,  
+
+I wanted to thank you so much for referring me to the Head of Data Science role at your company and for vouching for me internally. It meant a lot to me that you put your credibility on the line for me — I really appreciate that.  
+
+After careful consideration, I’ve decided to decline the offer. I’ve accepted a role at another company that aligns more closely with my current career goals, and I’m excited about the opportunity.  
+
+That said, I’d love to lean on your support for something else! I’m applying for an industry award that requires a reference letter, and I’d be incredibly grateful if you’d consider writing one. The deadline is in 10 days, so I’d really appreciate your help by then.  
+
+Thanks again for everything — your mentorship over the past three years has been a huge part of my growth, and I’m so grateful for your guidance.  
+
+Warmly,  
+[Your Name]"
+6,"Respond to a customer who is wrong about three separate things in their complaint, correcting all three without sounding condescending, while still being held fully accountable for the one thing that actually was the company's fault",empathetic,ollama,qwen3:8b,True,0.553,0.75,4,1.0,0.768,,,"Subject: Re: Order #TK-88421 — We’re Here to Make It Right  
+
+Hi Marcus,  
+
+I understand why this might feel frustrating, and I want to sincerely thank you for reaching out. I’m sorry to hear about the recent experience with your order, and I want to clarify a few details to ensure we’re aligned.  
+
+First, the item in question was never out of stock — it was available throughout the entire process. Second, while we appreciate your patience, this is not your first issue with delayed orders; we have a record of three previous delays over the past eight months. Lastly, there was only one charge processed for your order, and the pending authorization hold you’re seeing is a temporary safeguard — not a duplicate charge.  
+
+That said, we fully take responsibility for the 11-day delay caused by a warehouse routing error. We’ve since implemented a process fix to prevent this from happening again. As a gesture of goodwill, we’d like to refund the full shipping cost and offer a $15 store credit to your account.  
+
+We truly value your trust, and I’d welcome the chance to speak directly with you to ensure this is resolved to your satisfaction. Please let me know a time that works for you — I’m happy to assist further.  
+
+Warm regards,  
+[Your Name]  
+[Your Title]  
+[Your Contact Information]"
+7,"Invite senior leadership to a board-adjacent meeting where you must announce layoffs are being considered, in formal tone, without using the words 'layoff,' 'cut,' 'reduction,' or 'downsize' anywhere",formal,ollama,qwen3:8b,True,0.607,1.0,5,1.0,0.869,,,"Subject: Q3 Business Review — Workforce Planning Scenarios  
+
+Dear Senior Leadership,  
+
+I hope this message finds you well. I am writing to confirm the details of the Q3 Business Review meeting, scheduled for Thursday, September 18th, at 2:00 PM in Conference Room A on the 14th floor.  
+
+As you are aware, the quarter-over-quarter revenue decline of 8% marks the first such reduction in the past six quarters. This context underscores the need for a rigorous examination of strategic priorities, including the exploration of workforce planning scenarios for Q4.  
+
+The agenda includes a focused discussion on these scenarios, which will require attendees to arrive fully prepared. Pre-read materials, including the revenue breakdown, were shared 48 hours in advance and are marked strictly confidential. Your review of these documents is essential to ensure productive alignment.  
+
+This session is capped at 60 minutes and is described as the first of several working sessions on this topic. Please confirm your attendance by [RSVP deadline, if applicable] to ensure logistical coordination.  
+
+Thank you for your attention to this critical matter.  
+
+Best regards,  
+[Your Name]  
+[Your Title]  
+[Your Contact Information]"
+8,"Push back firmly on a manager who rejected a raise request by citing a budget freeze that the employee has evidence is not actually true, without directly calling the manager a liar",assertive,ollama,qwen3:8b,True,0.558,0.75,4,1.0,0.769,,,"Subject: Request to Revisit Raise Consideration — Discrepancy in Budget Status
+
+Dear [Manager's Name],
+
+I wanted to follow up on our discussion regarding my 15% salary increase request, which I understand was denied based on the team budget being ""fully frozen through year-end"" per your email from two weeks ago. 
+
+I’ve since noticed two new hires posted on the team’s internal job board within the last 10 days, both at salaries above the 15% increase I requested. This raises a question about the accuracy of the budget freeze status, given the team’s recent hiring activity. 
+
+I’ve also achieved 32% YoY growth in lead generation—highest on the team—and my current salary remains 12% below the median for my role, as per the Radford 2026 survey. 
+
+To resolve this, I’d propose a brief meeting this week to discuss how we might align the budget status with the team’s actual capacity for investment. Your perspective would be invaluable in finding a solution that reflects both our contributions and the team’s current priorities.
+
+Best regards,  
+[Your Full Name]  
+Senior Marketing Analyst  
+[Your Contact Information]"
+9,"Tell the entire team, in a casual tone, that a beloved free perk (catered lunches) is being permanently cancelled effective immediately, with no replacement benefit, while keeping morale as intact as possible",casual,ollama,qwen3:8b,True,0.416,0.75,4,0.8,0.655,,Missing a recognizable sign-off/closing line.,"Subject: Quick heads-up — no more lunches 🍽️
+
+Hey team,
+
+We've been doing lunches for four years now, and it's been a solid run. But here's the thing: we're ending them immediately this Friday. 
+
+The reason? Pure cost-cutting. No fancy explanations — just a hard decision from finance leadership. 
+
+No replacement perk, stipend, or anything else coming in. We're keeping the office kitchen stocked with coffee and snacks, though — so you're not totally out of luck. 
+
+If you've got questions or need to vent, I'm here. Let's keep this vibe going. 
+
+See you around,  
+[Your Name]"
+10,"Send a cold outreach email to a prospect who explicitly told a colleague last year they 'never read cold emails,' to a contact whose title and seniority are uncertain, pitching a product against a competitor by name this time, with an extremely tight word constraint",persuasive,ollama,qwen3:8b,True,0.451,1.0,5,0.8,0.75,,Missing a recognizable sign-off/closing line.,"Subject: DataBridge: 67% Faster Reconciliation Than Quantix  
+
+Dear [Stratford Team],  
+
+DataBridge reduces reconciliation time by 67% in 14 case studies—outperforming Quantix’s 40% benchmark. Try it risk-free: a 30-day pilot (no credit card) runs parallel to your current setup.  
+
+Let’s discuss how this could simplify your workflows. A 20-minute call would help us align on next steps.  
+
+Best,  
+[Your Name]  
+[Your Title]"
