@@ -1,0 +1,17 @@
+# Core framework 
+fastapi==0.137.2
+uvicorn[standard]==0.49.0
+websockets>=12.0
+
+# LangGraph + LangChain 
+langgraph>=0.1.0
+langchain-core>=0.2.0
+
+# LLM clients 
+openai>=1.30.0          # used for both OpenAI API and Ollama (OpenAI-compatible)
+
+# Validation 
+pydantic==2.13.4
+
+# Environment
+python-dotenv>=1.0.0
